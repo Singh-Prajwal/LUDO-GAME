@@ -29,4 +29,4 @@ function confettiFalling(){
         container.appendChild(div);
     }
 }
-confettiFalling()
+confettiFalling();
