@@ -1,0 +1,45 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ludo Game</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Antonio:wght@200;300&family=Bungee+Spice&family=DynaPuff&family=Poppins:ital,wght@0,300;1,200;1,300&family=Roboto:ital,wght@0,300;1,100&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="./image/icon/icons8-ludo-game-16.png"/>
+  </head>
+  <body>
+    <div class="container">
+      <h1>LUDO GAME</h1>
+      <div class="Dice-images">
+        
+      <div class="Player" id="player-1"><p>Player 1</p>
+        <img
+          src="./image/dice_faces/dice1.png"
+          id="die-1"
+          alt="One"
+          width="40%"
+        />
+      </div>
+      <div class="Player" id="player-2"><p>Player 2</p>
+        <img
+          src="./image/dice_faces/dice2.png"
+          id="die-2"
+          alt="One"
+          width="40%"
+        />
+        </div>
+      </div>
+        <p id="result">Let's Play !</p>
+        <br />
+       
+        <button onclick="rolldice();">Roll the Dice</button>
+    </div>
+     <script src="./index.js"></script>
+  </body>
+</html>
